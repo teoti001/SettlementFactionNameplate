@@ -1,0 +1,9 @@
+G:\SteamLibrary\steamapps\common\Mount & Blade II Bannerlord\Modules\SettlementFactionNameplate\bin\Win64_Shipping_Client\SettlementFactionNameplate.dll
+G:\SteamLibrary\steamapps\common\Mount & Blade II Bannerlord\Modules\SettlementFactionNameplate\bin\Win64_Shipping_Client\SettlementFactionNameplate.pdb
+G:\SteamLibrary\steamapps\common\Mount & Blade II Bannerlord\Modules\SettlementFactionNameplate\bin\Win64_Shipping_Client\0Harmony.dll
+G:\SteamLibrary\steamapps\common\Mount & Blade II Bannerlord\Modules\SettlementFactionNameplate\bin\Win64_Shipping_Client\0Harmony.xml
+G:\SteamLibrary\steamapps\common\Mount & Blade II Bannerlord\Modules\SettlementFactionNameplate\obj\Debug\SettlementFactionNameplate.csprojAssemblyReference.cache
+G:\SteamLibrary\steamapps\common\Mount & Blade II Bannerlord\Modules\SettlementFactionNameplate\obj\Debug\SettlementFactionNameplate.csproj.CoreCompileInputs.cache
+G:\SteamLibrary\steamapps\common\Mount & Blade II Bannerlord\Modules\SettlementFactionNameplate\obj\Debug\SettlementFactionNameplate.csproj.CopyComplete
+G:\SteamLibrary\steamapps\common\Mount & Blade II Bannerlord\Modules\SettlementFactionNameplate\obj\Debug\SettlementFactionNameplate.dll
+G:\SteamLibrary\steamapps\common\Mount & Blade II Bannerlord\Modules\SettlementFactionNameplate\obj\Debug\SettlementFactionNameplate.pdb

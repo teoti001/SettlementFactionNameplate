@@ -1,0 +1,294 @@
+<Brushes>
+
+  <Brush Name="Nameplate.FlatBanner.Big">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\banner_flat" OverlayXOffset="48" OverlayYOffset="44"/>
+    </Layers>
+  </Brush>
+
+  <Brush Name="Nameplate.FlatBanner.Normal">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\banner_flat" OverlayXOffset="40" OverlayYOffset="35" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Nameplate.FlatBanner.Small">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\banner_flat" OverlayXOffset="30" OverlayYOffset="29" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="Nameplate.FlatBanner.Party">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="StdAssets\banner_flat" OverlayXOffset="24" OverlayYOffset="22" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="SettlementNameplateTextBrush" TextHorizontalAlignment="Center">
+    <Layers>
+      <BrushLayer Name="Default" />
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextGlowColor="#111111FF">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="SettlementTypeBrush" TextHorizontalAlignment="Center">
+    <Layers>
+      <BrushLayer Name="Town" Sprite="Nameplates\neutral_town_top" IsHidden="true" />
+      <BrushLayer Name="Castle" Sprite="Nameplates\neutral_town_top" IsHidden="true" />
+      <BrushLayer Name="Village" Sprite="Nameplates\neutral_town_top" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Town">
+        <BrushLayer Name="Town" IsHidden="false" />
+      </Style>
+      <Style Name="Castle">
+        <BrushLayer Name="Castle" IsHidden="false" />
+      </Style>
+      <Style Name="Village">
+        <BrushLayer Name="Village" IsHidden="false" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="SettlementCastleBrush" TextHorizontalAlignment="Center">
+    <Layers>
+      <BrushLayer Name="NeutralCastle" Sprite="enemy_castle_9" IsHidden="true" />
+      <BrushLayer Name="AllyCastle" Sprite="enemy_castle_9" IsHidden="true" />
+      <BrushLayer Name="EnemyCastle" Sprite="enemy_castle_9" IsHidden="true" />
+      <BrushLayer Name="AseraiCastle" Sprite="enemy_castle_9" IsHidden="true" />
+      <BrushLayer Name="BattaniaCastle" Sprite="enemy_castle_9" IsHidden="true" />
+      <BrushLayer Name="KhuzaitCastle" Sprite="enemy_castle_9" IsHidden="true" />
+	  <BrushLayer Name="NorthernEmpireCastle" Sprite="enemy_castle_9" IsHidden="true" />
+	  <BrushLayer Name="SouthernEmpireCastle" Sprite="enemy_castle_9" IsHidden="true" />
+	  <BrushLayer Name="SturgiaCastle" Sprite="enemy_castle_9" IsHidden="true" />
+	  <BrushLayer Name="VlandiaCastle" Sprite="enemy_castle_9" IsHidden="true" />
+	  <BrushLayer Name="WesternEmpireCastle" Sprite="enemy_castle_9" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="NeutralCastle">
+        <BrushLayer Name="NeutralCastle" IsHidden="false" Color="#245E05FF" />
+      </Style>
+      <Style Name="AllyCastle">
+        <BrushLayer Name="AllyCastle" IsHidden="false" Color="#245E05FF" />
+      </Style>
+      <Style Name="EnemyCastle">
+        <BrushLayer Name="EnemyCastle" IsHidden="false" Color="#870707FF" />
+      </Style>
+	  <Style Name="AseraiCastle">
+        <BrushLayer Name="AseraiCastle" IsHidden="false" Color="#B57A1EFF" />
+      </Style>
+      <Style Name="BattaniaCastle">
+        <BrushLayer Name="BattaniaCastle" IsHidden="false" Color="#284E19FF" />
+      </Style>
+      <Style Name="KhuzaitCastle">
+        <BrushLayer Name="KhuzaitCastle" IsHidden="false" Color="#429081FF" />
+      </Style>
+      <Style Name="NorthernEmpireCastle">
+        <BrushLayer Name="NorthernEmpireCastle" IsHidden="false" Color="#793191FF" />
+      </Style>
+      <Style Name="SouthernEmpireCastle">
+        <BrushLayer Name="SouthernEmpireCastle" IsHidden="false" Color="#382188FF" />
+      </Style>
+      <Style Name="SturgiaCastle">
+        <BrushLayer Name="SturgiaCastle" IsHidden="false" Color="#224277FF" />
+      </Style>
+      <Style Name="VlandiaCastle">
+        <BrushLayer Name="VlandiaCastle" IsHidden="false" Color="#8D291AFF" />
+      </Style>
+      <Style Name="WesternEmpireCastle">
+        <BrushLayer Name="WesternEmpireCastle" IsHidden="false" Color="#591645FF" />
+	  </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="SettlementVillageBrush" TextHorizontalAlignment="Center">
+    <Layers>
+      <BrushLayer Name="NeutralVillage" Sprite="enemy_village_9" IsHidden="true" />
+      <BrushLayer Name="AllyVillage" Sprite="enemy_village_9" IsHidden="true" />
+      <BrushLayer Name="EnemyVillage" Sprite="enemy_village_9" IsHidden="true" />
+      <BrushLayer Name="AseraiVillage" Sprite="enemy_village_9" IsHidden="true" />
+      <BrushLayer Name="BattaniaVillage" Sprite="enemy_village_9" IsHidden="true" />
+      <BrushLayer Name="KhuzaitVillage" Sprite="enemy_village_9" IsHidden="true" />
+	  <BrushLayer Name="NorthernEmpireVillage" Sprite="enemy_village_9" IsHidden="true" />
+	  <BrushLayer Name="SouthernEmpireVillage" Sprite="enemy_village_9" IsHidden="true" />
+	  <BrushLayer Name="SturgiaVillage" Sprite="enemy_village_9" IsHidden="true" />
+	  <BrushLayer Name="VlandiaVillage" Sprite="enemy_village_9" IsHidden="true" />
+	  <BrushLayer Name="WesternEmpireVillage" Sprite="enemy_village_9" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="NeutralVillage">
+        <BrushLayer Name="NeutralVillage" IsHidden="false" Color="#000000FF" />
+      </Style>
+      <Style Name="AllyVillage">
+        <BrushLayer Name="AllyVillage" IsHidden="false" Color="#245E05FF" />
+      </Style>
+      <Style Name="EnemyVillage">
+        <BrushLayer Name="EnemyVillage" IsHidden="false" Color="#870707FF" />
+      </Style>
+	  <Style Name="AseraiVillage">
+        <BrushLayer Name="AseraiVillage" IsHidden="false" Color="#B57A1EFF" />
+      </Style>
+      <Style Name="BattaniaVillage">
+        <BrushLayer Name="BattaniaVillage" IsHidden="false" Color="#284E19FF" />
+      </Style>
+      <Style Name="KhuzaitVillage">
+        <BrushLayer Name="KhuzaitVillage" IsHidden="false" Color="#429081FF" />
+      </Style>
+      <Style Name="NorthernEmpireVillage">
+        <BrushLayer Name="NorthernEmpireVillage" IsHidden="false" Color="#793191FF" />
+      </Style>
+      <Style Name="SouthernEmpireVillage">
+        <BrushLayer Name="SouthernEmpireVillage" IsHidden="false" Color="#382188FF" />
+      </Style>
+      <Style Name="SturgiaVillage">
+        <BrushLayer Name="SturgiaVillage" IsHidden="false" Color="#224277FF" />
+      </Style>
+      <Style Name="VlandiaVillage">
+        <BrushLayer Name="VlandiaVillage" IsHidden="false" Color="#8D291AFF" />
+      </Style>
+      <Style Name="WesternEmpireVillage">
+        <BrushLayer Name="WesternEmpireVillage" IsHidden="false" Color="#591645FF" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="SettlementTownBrush" TextHorizontalAlignment="Center">
+    <Layers>
+      <BrushLayer Name="NeutralTown" Sprite="enemy_town_9" IsHidden="true" />
+      <BrushLayer Name="AllyTown" Sprite="enemy_town_9" IsHidden="true" />
+      <BrushLayer Name="EnemyTown" Sprite="enemy_town_9" IsHidden="true" />
+      <BrushLayer Name="AseraiTown" Sprite="enemy_town_9" IsHidden="true" />
+      <BrushLayer Name="BattaniaTown" Sprite="enemy_town_9" IsHidden="true" />
+      <BrushLayer Name="KhuzaitTown" Sprite="enemy_town_9" IsHidden="true" />
+	  <BrushLayer Name="NorthernEmpireTown" Sprite="enemy_town_9" IsHidden="true" />
+	  <BrushLayer Name="SouthernEmpireTown" Sprite="enemy_town_9" IsHidden="true" />
+	  <BrushLayer Name="SturgiaTown" Sprite="enemy_town_9" IsHidden="true" />
+	  <BrushLayer Name="VlandiaTown" Sprite="enemy_town_9" IsHidden="true" />
+	  <BrushLayer Name="WesternEmpireTown" Sprite="enemy_town_9" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="NeutralTown">
+        <BrushLayer Name="NeutralTown" IsHidden="false" Color="#000000FF" />
+      </Style>
+      <Style Name="AllyTown">
+        <BrushLayer Name="AllyTown" IsHidden="false" Color="#245E05FF" />
+      </Style>
+      <Style Name="EnemyTown">
+        <BrushLayer Name="EnemyTown" IsHidden="false" Color="#870707FF" />
+      </Style>
+      <Style Name="AseraiTown">
+        <BrushLayer Name="AseraiTown" IsHidden="false" Color="#B57A1EFF" />
+      </Style>
+      <Style Name="BattaniaTown">
+        <BrushLayer Name="BattaniaTown" IsHidden="false" Color="#284E19FF" />
+      </Style>
+      <Style Name="KhuzaitTown">
+        <BrushLayer Name="KhuzaitTown" IsHidden="false" Color="#429081FF" />
+      </Style>
+      <Style Name="NorthernEmpireTown">
+        <BrushLayer Name="NorthernEmpireTown" IsHidden="false" Color="#793191FF" />
+      </Style>
+      <Style Name="SouthernEmpireTown">
+        <BrushLayer Name="SouthernEmpireTown" IsHidden="false" Color="#382188FF" />
+      </Style>
+      <Style Name="SturgiaTown">
+        <BrushLayer Name="SturgiaTown" IsHidden="false" Color="#224277FF" />
+      </Style>
+      <Style Name="VlandiaTown">
+        <BrushLayer Name="VlandiaTown" IsHidden="false" Color="#8D291AFF" />
+      </Style>
+      <Style Name="WesternEmpireTown">
+        <BrushLayer Name="WesternEmpireTown" IsHidden="false" Color="#591645FF" />
+      </Style>
+    </Styles>	  
+  </Brush>
+
+  <Brush Name="NotificationRelationStatus" TextHorizontalAlignment="Center">
+    <Layers>
+      <BrushLayer Name="Neutral" Sprite="Nameplates\Notification\relation_status" Color="#ECB05BFF" IsHidden="true" />
+      <BrushLayer Name="Ally" Sprite="Nameplates\Notification\relation_status" Color="#98CA3AFF" IsHidden="true" />
+      <BrushLayer Name="Enemy" Sprite="Nameplates\Notification\relation_status" Color="#D6543BFF" IsHidden="true" />
+    </Layers>
+    <Styles>
+      <Style Name="Neutral">
+        <BrushLayer Name="Neutral" IsHidden="false" />
+      </Style>
+      <Style Name="Ally">
+        <BrushLayer Name="Ally" IsHidden="false" />
+      </Style>
+      <Style Name="Enemy">
+        <BrushLayer Name="Enemy" IsHidden="false" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="SettlementTrackBall" TextHorizontalAlignment="Center">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Nameplates\tracked_ring" ColorFactor="10" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="SettlementInspectedVisual" TextHorizontalAlignment="Center">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="Nameplates\nameplate_vision" Color="#E1E1E1FF" AlphaFactor="0.5" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="Settlement.Party.Banner">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="BlankWhiteSquare_9" OverlayXOffset="21" OverlayYOffset="23" ColorFactor="0.55" />
+    </Layers>
+  </Brush>
+
+  <Brush Name="PartyNameplate.FullName.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Left">
+    <Styles>
+      <Style Name="Default" FontColor="#A1A1A1FF" TextGlowColor="#000000FF" TextOutlineColor="#000000FF" TextOutlineAmount="0.01" TextGlowRadius="0" TextBlur="0.5" FontSize="26" />
+    </Styles>
+  </Brush>
+  <Brush Name="Settlement.Notification.Name.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Left">
+    <Styles>
+      <Style Name="Default" FontColor="#FFFFFFFF" TextGlowColor="#000000FF" TextOutlineColor="#000000FF" TextOutlineAmount="0" TextGlowRadius="0" TextBlur="0" FontSize="14" />
+    </Styles>
+  </Brush>
+  <Brush Name="Settlement.Notification.Value.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Left">
+    <Styles>
+      <Style Name="Default" FontColor="#ECB05BFF" TextGlowColor="#000000FF" TextOutlineColor="#000000FF" TextOutlineAmount="0" TextGlowRadius="0" TextBlur="0" FontSize="14" />
+    </Styles>
+  </Brush>
+
+
+  <Brush Name="MapEvent.Visual.Brush" >
+    <Layers>
+      <BrushLayer Name="Default"/>
+    </Layers>
+    <Styles>
+      <Style Name="None">
+        <BrushLayer Name="Default" IsHidden="true" />
+      </Style>
+      <Style Name="Raid">
+        <BrushLayer Name="Default" Sprite="MapEvents\raid_icon" IsHidden="false" />
+      </Style>
+      <Style Name="Siege">
+        <BrushLayer Name="Default" Sprite="MapEvents\siege_icon" IsHidden="false" />
+      </Style>
+      <Style Name="Battle">
+        <BrushLayer Name="Default" Sprite="MapEvents\battle_icon" IsHidden="false" />
+      </Style>
+    </Styles>
+  </Brush>
+
+</Brushes>
