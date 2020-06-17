@@ -40,14 +40,9 @@ namespace SettlementFactionNameplate
                     return true;
                     break;
             }
-            //utils.print("WID: " + ____currentRelationState + type);
             ____isVisualStateDirty = true;
             return false;
         }
-        /*
-        private static void Postfix(SettlementNameplateWidget __instance, ref int type, ref string ____currentRelationState) {
-            utils.print("WID: " + ____currentRelationState + type);
-        }*/
     }
 }
 
