@@ -1,7 +1,7 @@
 ﻿<Module>
   <Name value="SettlementFactionNameplate"/>
   <Id value="debugSettlementFactionNameplate"/>
-  <Version value="v0.1.1"/>
+  <Version value="v0.1.2"/>
   <SingleplayerModule value="true"/>
   <MultiplayerModule value="false"/>
   <DependedModules>

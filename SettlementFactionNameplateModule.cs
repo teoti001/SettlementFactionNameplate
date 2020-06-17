@@ -2,8 +2,6 @@
 using System.Windows.Forms;
 using HarmonyLib;
 using System;
-using TaleWorlds.Core;
-using TaleWorlds.Localization;
 
 namespace SettlementFactionNameplate
 {
