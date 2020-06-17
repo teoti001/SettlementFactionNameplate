@@ -14,7 +14,7 @@ namespace SettlementFactionNameplate
             
             try
             {
-                Harmony harmony = new Harmony("com.teoti.bannerlord.settlementfactionnameplate");
+                Harmony harmony = new Harmony("oet.bannerlord.settlementfactionnameplate");
                 harmony.PatchAll();
             }
             catch (Exception ex) {

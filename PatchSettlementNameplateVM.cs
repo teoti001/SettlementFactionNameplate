@@ -9,8 +9,7 @@ namespace SettlementFactionNameplate
     class PatchSettlementNameplateVM
     {
         private static bool Prefix(SettlementNameplateVM __instance, ref int ____bindRelation, IFaction ____currentFaction) {
-            String faction = ____currentFaction.ToString().Replace(" ","");
-            //____bindRelation = 0;           
+            String faction = ____currentFaction.ToString().Replace(" ","");      
             switch (faction) {
                 case "Aserai":
                     ____bindRelation = 3;
@@ -40,8 +39,6 @@ namespace SettlementFactionNameplate
                     return true;
                     break;
             }
-            //utils.print("VM: " + faction + ____bindRelation);
-            //__instance.Relation = ____bindRelation;
             return false;
         }
     }
