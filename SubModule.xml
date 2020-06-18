@@ -1,6 +1,6 @@
 ﻿<Module>
   <Name value="SettlementFactionNameplate"/>
-  <Id value="debugSettlementFactionNameplate"/>
+  <Id value="SettlementFactionNameplate"/>
   <Version value="v0.1.2"/>
   <SingleplayerModule value="true"/>
   <MultiplayerModule value="false"/>
@@ -9,11 +9,13 @@
   </DependedModules>
   <SubModules>
     <SubModule>
-      <Name value="debugSettlementFactionNameplate"/>
+      <Name value="SettlementFactionNameplate"/>
       <DLLName value="SettlementFactionNameplate.dll"/>
       <SubModuleClassType value="SettlementFactionNameplate.SettlementFactionNameplateModule"/>
       <Tags>
       </Tags>
     </SubModule>
   </SubModules>
+	<Xmls>
+	</Xmls>
 </Module>
